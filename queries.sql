@@ -1,4 +1,4 @@
--- working w the above data:
+-- working with the above data:
 -- Find the 5 oldest users:
 SELECT * FROM Users
 	ORDER BY created_at 
