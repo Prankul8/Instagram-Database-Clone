@@ -6,7 +6,7 @@ SELECT * FROM Users
 
 -- What day of the week do most users register on?
 SELECT 
-    DAYNAME(created_at) AS day,
+    DAYNAME(created_at) AS day ,
     COUNT(*) AS total
 FROM Users
 GROUP BY day
