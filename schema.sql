@@ -1,5 +1,5 @@
 CREATE DATABASE instagram;
-USE instagram;
+USE instagram ;
 
 CREATE TABLE Users (
     id INTEGER AUTO_INCREMENT PRIMARY KEY,
